@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: slategray;
+}
+img{
+    height: 300px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: #000;
+}
+.app{
+    text-align: center;
+    margin-top: 10%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+.box{
+    display: flex;
+    column-gap: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+.box button{
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid slateblue;
+    border-radius: 5px;
+    font-size: 30px;
+}
